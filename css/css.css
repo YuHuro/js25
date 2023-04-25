@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+body{
+    font-size: 25px;
+}
+.little{
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.little-items{
+    width: 300px;
+    text-align: center;
+}
+
+.big{
+    background-image: url(/img/1.png);
+    background-repeat: no-repeat;
+    width: 512px;
+    color: white;
+    height: 512px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    text-align: center;
+}
+.active{
+    background-color: skyblue;
+}
+
+.active:hover{
+    transition: .4s;
+}
